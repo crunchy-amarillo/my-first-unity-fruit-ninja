@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7820401917738183623
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      propertyPath: m_Name
+      value: Watermelon
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      propertyPath: m_TagString
+      value: InteractableElement
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1448256354309923696}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8881833629889411217}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2901662655931308864}
+  m_SourcePrefab: {fileID: 100100000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+--- !u!1 &7820401917738151271 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: ee7f2f2efa48f4f44a73e902f1d3af93, type: 3}
+  m_PrefabInstance: {fileID: 7820401917738183623}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1448256354309923696
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820401917738151271}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &8881833629889411217
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820401917738151271}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3
+--- !u!114 &2901662655931308864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7820401917738151271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a579935a6c30629409cd8657449a839e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slicedFruitPrefab: {fileID: 7731245378812548564, guid: 36e74afe425160743b7c2106d31378de, type: 3}
+  explosionForce: 5
